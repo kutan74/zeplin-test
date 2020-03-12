@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A38AEB2419584D00D76FDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A38AEA2419584D00D76FDA /* AppDelegate.swift */; };
+		A0A38AED2419584D00D76FDA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A38AEC2419584D00D76FDA /* SceneDelegate.swift */; };
+		A0A38AEF2419584D00D76FDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A38AEE2419584D00D76FDA /* ViewController.swift */; };
+		A0A38AF22419584D00D76FDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A38AF02419584D00D76FDA /* Main.storyboard */; };
+		A0A38AF52419584D00D76FDA /* ZeplinParser.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0A38AF32419584D00D76FDA /* ZeplinParser.xcdatamodeld */; };
+		A0A38AF72419585100D76FDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A38AF62419585100D76FDA /* Assets.xcassets */; };
+		A0A38AFA2419585100D76FDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A38AF82419585100D76FDA /* LaunchScreen.storyboard */; };
+		A0A38B022419587200D76FDA /* ZeplinScreenComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A38B012419587200D76FDA /* ZeplinScreenComponent.swift */; };
+		A0A38B04241958C900D76FDA /* zeplin.json in Resources */ = {isa = PBXBuildFile; fileRef = A0A38B03241958C900D76FDA /* zeplin.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A0A38AE72419584D00D76FDA /* ZeplinParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeplinParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A38AEA2419584D00D76FDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0A38AEC2419584D00D76FDA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0A38AEE2419584D00D76FDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0A38AF12419584D00D76FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0A38AF42419584D00D76FDA /* ZeplinParser.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZeplinParser.xcdatamodel; sourceTree = "<group>"; };
+		A0A38AF62419585100D76FDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0A38AF92419585100D76FDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0A38AFB2419585100D76FDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A38B012419587200D76FDA /* ZeplinScreenComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeplinScreenComponent.swift; sourceTree = "<group>"; };
+		A0A38B03241958C900D76FDA /* zeplin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zeplin.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A38AE42419584D00D76FDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A38ADE2419584D00D76FDA = {
+			isa = PBXGroup;
+			children = (
+				A0A38AE92419584D00D76FDA /* ZeplinParser */,
+				A0A38AE82419584D00D76FDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A38AE82419584D00D76FDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0A38AE72419584D00D76FDA /* ZeplinParser.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0A38AE92419584D00D76FDA /* ZeplinParser */ = {
+			isa = PBXGroup;
+			children = (
+				A0A38B03241958C900D76FDA /* zeplin.json */,
+				A0A38AEA2419584D00D76FDA /* AppDelegate.swift */,
+				A0A38AEC2419584D00D76FDA /* SceneDelegate.swift */,
+				A0A38AEE2419584D00D76FDA /* ViewController.swift */,
+				A0A38AF02419584D00D76FDA /* Main.storyboard */,
+				A0A38AF62419585100D76FDA /* Assets.xcassets */,
+				A0A38AF82419585100D76FDA /* LaunchScreen.storyboard */,
+				A0A38AFB2419585100D76FDA /* Info.plist */,
+				A0A38AF32419584D00D76FDA /* ZeplinParser.xcdatamodeld */,
+				A0A38B012419587200D76FDA /* ZeplinScreenComponent.swift */,
+			);
+			path = ZeplinParser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0A38AE62419584D00D76FDA /* ZeplinParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A38AFE2419585100D76FDA /* Build configuration list for PBXNativeTarget "ZeplinParser" */;
+			buildPhases = (
+				A0A38AE32419584D00D76FDA /* Sources */,
+				A0A38AE42419584D00D76FDA /* Frameworks */,
+				A0A38AE52419584D00D76FDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZeplinParser;
+			productName = ZeplinParser;
+			productReference = A0A38AE72419584D00D76FDA /* ZeplinParser.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A38ADF2419584D00D76FDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "KUTAN ÇINGISIZ";
+				TargetAttributes = {
+					A0A38AE62419584D00D76FDA = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A0A38AE22419584D00D76FDA /* Build configuration list for PBXProject "ZeplinParser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0A38ADE2419584D00D76FDA;
+			productRefGroup = A0A38AE82419584D00D76FDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0A38AE62419584D00D76FDA /* ZeplinParser */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0A38AE52419584D00D76FDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A38AFA2419585100D76FDA /* LaunchScreen.storyboard in Resources */,
+				A0A38B04241958C900D76FDA /* zeplin.json in Resources */,
+				A0A38AF72419585100D76FDA /* Assets.xcassets in Resources */,
+				A0A38AF22419584D00D76FDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A38AE32419584D00D76FDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A38AF52419584D00D76FDA /* ZeplinParser.xcdatamodeld in Sources */,
+				A0A38AEF2419584D00D76FDA /* ViewController.swift in Sources */,
+				A0A38AEB2419584D00D76FDA /* AppDelegate.swift in Sources */,
+				A0A38AED2419584D00D76FDA /* SceneDelegate.swift in Sources */,
+				A0A38B022419587200D76FDA /* ZeplinScreenComponent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A0A38AF02419584D00D76FDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A38AF12419584D00D76FDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0A38AF82419585100D76FDA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0A38AF92419585100D76FDA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0A38AFC2419585100D76FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0A38AFD2419585100D76FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0A38AFF2419585100D76FDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT2V6T6JDZ;
+				INFOPLIST_FILE = ZeplinParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocket.app.ZeplinParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0A38B002419585100D76FDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT2V6T6JDZ;
+				INFOPLIST_FILE = ZeplinParser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rocket.app.ZeplinParser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A38AE22419584D00D76FDA /* Build configuration list for PBXProject "ZeplinParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A38AFC2419585100D76FDA /* Debug */,
+				A0A38AFD2419585100D76FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0A38AFE2419585100D76FDA /* Build configuration list for PBXNativeTarget "ZeplinParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A38AFF2419585100D76FDA /* Debug */,
+				A0A38B002419585100D76FDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A0A38AF32419584D00D76FDA /* ZeplinParser.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A0A38AF42419584D00D76FDA /* ZeplinParser.xcdatamodel */,
+			);
+			currentVersion = A0A38AF42419584D00D76FDA /* ZeplinParser.xcdatamodel */;
+			path = ZeplinParser.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A0A38ADF2419584D00D76FDA /* Project object */;
+}
